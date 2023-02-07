@@ -25,7 +25,7 @@ ImageGallery.defaultProps = {
 ImageGallery.propTypes = {
   gallery: PropTypes.arrayOf(
     PropTypes.shape({
-      id: PropTypes.string.isRequired,
+      id: PropTypes.number.isRequired,
       webformatURL: PropTypes.string.isRequired,
       tags: PropTypes.string.isRequired,
       largeImageURL: PropTypes.string.isRequired,
